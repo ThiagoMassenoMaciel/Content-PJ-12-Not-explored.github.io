@@ -1,0 +1,14 @@
+Usando o metodo find 
+
+
+
+const variavel = array.find( e => e.loguin === username )
+
+
+ele vai procurar dentro da array algum elemento que obdeça a regra escolhida 
+        :e quando achar o primeiro elemento que passou na regra retorna o seu valor
+        :e se não achar ?  retorna undefined 
+
+ele vai retornar para dentro da variavel o obj com aquele login === username 
+
+

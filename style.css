@@ -1,0 +1,50 @@
+:root{
+  font-size: 62.5%;
+
+  --color-secton-1: hsla(0, 30%, 87%, 0.769);
+  --color-secton-2: hsla(107, 56%, 79%, 0.769);
+  --color-secton-3: hsla(192, 57%, 80%, 0.769);
+  --color-back-button-: hsl(0, 0%, 0%);
+  --color-text-button-: hsl(0, 0%, 100%);
+
+}
+
+body{
+  font-size: 1.6rem;
+}
+
+section{
+  width: 95vw;
+  height: 100vh;
+
+  font-size: 2rem;
+
+  padding: 2rem;
+  margin: 2rem 0px;
+}
+
+#s1{
+  background-color: var(--color-secton-1);
+}
+
+
+#s2{
+  background-color: var(--color-secton-2);
+}
+
+section button{
+  background-color: var(--color-back-button-);
+  color: var(--color-text-button-);
+
+  border: none;
+
+  padding: 1rem;
+  margin: 1rem auto;
+
+  border-radius: 3rem 3rem;
+
+  align-self: flex-end;
+
+
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <section id="s1">
+      <button>Ao clicar neste button vc vera uma mensagem dentro dentro do console.log</button>
+    
+      <button id="b2">JavaScript Executa uma linha de codigo por vez</button>
+
+      <h1>E seguindo a ordem de escrita do código:</h1>
+      <p>
+        uma função com varios comandos<br/>
+        um comando 
+      </p>
+      <span>o comando isolado so vai ser executado depois que todos os comandos dentro da função forem executados</span>
+    </section>
+
+    <section id="s2">
+      <h1>Situação onde esta ordem padrão de execução dentro da stack de callbacks do JS<br/>
+        pode causar um problema
+      </h1>
+    
+      <button id="b3">Quando a funcão tem um while(true)</button>
+      
+      <p>E seguindo a ordem de escrita do código: <br/>
+        uma função com varios comandos<br/>
+        um comando 
+      </p>
+      <span>o comando isolado vei ficar sempre sa espera da função anterior ser completamente executada</span>
+    </section>
+    
+
+  </main>
+  <script src="./js/main.js" type="module"></script>
+
+</body>
+</html>
